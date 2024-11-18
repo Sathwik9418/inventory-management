@@ -77,9 +77,9 @@ const Page = () => {
                       Math.floor(Math.random() * 3) + 1
                     }.png`}
                     alt={product.name}
-                    width={48}
-                    height={48}
-                    className='rounded-lg w-14 h-14'
+                    width={150}
+                    height={150}
+                    className="mb-3 rounded-2xl w-36 h-36"
 
                 />
                 <h3 className="text-lg text-gray-900 font-semibold">
