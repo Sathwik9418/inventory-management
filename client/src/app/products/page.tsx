@@ -15,7 +15,7 @@ type ProductFormData = {
   rating: number;
 };
 
-const page = () => {
+const Page = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -101,4 +101,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

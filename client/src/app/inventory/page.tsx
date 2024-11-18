@@ -31,7 +31,7 @@ const columns: GridColDef[] = [
   },
 ];
 
-function page() {
+function Page() {
   const { data: products, isError, isLoading } = useGetProductsQuery();
   console.log("products", products);
 
@@ -58,4 +58,4 @@ function page() {
     
 }
 
-export default page;
+export default Page;

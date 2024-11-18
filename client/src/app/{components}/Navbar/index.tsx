@@ -6,7 +6,7 @@ import { useAppDispatch, useAppSelector } from '@/app/redux';
 import { setIsDarkMode, setIsSidebarCollapsed } from '@/app/state';
 
 
-const index = () => {
+const Index = () => {
 
     const dispatch = useAppDispatch();
     const isSidebarCollapsed = useAppSelector(
@@ -78,4 +78,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
